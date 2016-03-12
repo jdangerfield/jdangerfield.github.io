@@ -1,0 +1,104 @@
+h2 {
+	color: white;
+}
+
+h4, h5 {
+	color: #999;
+}
+
+h5 {
+	margin-top: -10px;
+}
+
+#skills {
+	margin-top: 50px;
+}
+
+#skills ul {
+	color: #000;
+	list-style-type: none;
+	font-weight: bold;
+}
+
+a {
+	color: #333;
+}
+
+body {
+	background-color: #777;
+}
+
+#header {
+	height: 500px;
+	background-image: url("../img/fb.jpg");
+	background-repeat: no-repeat;
+}
+
+#header-top {
+	height: 100px;
+}
+
+.shade {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.container {
+	position: relative;
+}
+#logo {
+	/*background-image: url("../img/logo.png");
+	background-repeat: no-repeat;*/
+	position: absolute;
+	top: 15px;
+	right: 0;
+	height: 175px;
+	width: 185px;
+	
+}
+
+
+
+/*#logo {
+  position: absolute;
+  top: 15px;
+  right: 0;
+  width: 175px;
+  height: 185px;
+  display: block;
+  //position: relative;
+}*/
+
+#logo::after {
+  content: "";
+  background-image: url("../img/logo.png");
+  background-repeat: no-repeat;
+  opacity: 0.25;
+
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: 1000;   
+}
+
+
+
+.work {
+  width: 33.33333%;  /* Or whatever */
+  height: 200px; /* Or whatever */
+  margin: auto;  /* Magic! */
+  flex-flow: row wrap;
+}
+
+#jobs {
+	display: flex;
+}
+
+#snap {
+	margin-top: 0px;
+	height: 1.5em;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+}
