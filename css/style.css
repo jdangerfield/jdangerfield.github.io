@@ -15,7 +15,7 @@ h5 {
 }
 
 #skills ul {
-	color: #000;
+	color: antiqueWhite;
 	list-style-type: none;
 	font-weight: bold;
 }
@@ -92,7 +92,6 @@ body {
 }
 
 #jobs {
-	display: flex;
 }
 
 #snap {
